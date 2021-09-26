@@ -1,0 +1,134 @@
+[
+	{
+		"id": "error",
+		"translation": "désolé, une erreur est survenue"
+	},
+  {
+		"id": "error.wrong_input",
+		"translation": "désolé, mauvais paramètres"
+	},
+  {
+		"id": "common.separator.comma",
+		"translation": ", "
+	},
+	{
+		"id": "common.separator.colon",
+		"translation": " : "
+	},
+  {
+		"id": "common.separator.hyphen",
+		"translation": " - "
+	},
+  {
+		"id": "common.minutes.short",
+		"translation": "min"
+	},
+  {
+		"id": "command.unknown",
+		"translation": "désolé, je ne comprends pas cette commande"
+	},
+	{
+		"id": "search.invalid",
+		"translation": "commande recherche invalide\nexemple: recherche mots amusants"
+	},
+	{
+		"id": "search.no_data",
+		"translation": "pas de résultats"
+	},
+	{
+		"id": "translate.invalid",
+		"translation": "commande traduction invalide\nexemple en vers fr: traduction funny words\nexemple: traduction en fr funny words"
+	},
+	{
+		"id": "cyclocity.invalid",
+		"translation": "commande cyclocity invalide\nexemple: cyclocity nantes gare maritime"
+	},
+	{
+		"id": "cyclocity.available_bikes",
+		"translation": "vélos disponibles"
+	},
+	{
+		"id": "cyclocity.available_bike_stands",
+		"translation": "points d'attache disponibles"
+	},
+	{
+		"id": "bicloo.invalid",
+		"translation": "commande bicloo invalide\nexemple: bicloo gare maritime"
+	},
+	{
+		"id": "weather.invalid",
+		"translation": "commande meteo invalide\nexemple day: meteo nantes\nexample heure: meteo heure nantes"
+	},
+	{
+		"id": "weather.no_data",
+		"translation": "données indisponibles"
+	},
+	{
+		"id": "weather.rain.invalid",
+		"translation": "commande pluie invalide\nexemple: pluie nantes"
+	},
+	{
+		"id": "weather.rain.not_available",
+		"translation": "dervice indisponible pour cette ville"
+	},
+	{
+		"id": "weather.rain.no_data",
+		"translation": "données indisponibles pour cette ville"
+	},
+	{
+		"id": "weather.rain.no_data_available",
+		"translation": "données indisponibles"
+	},
+	{
+		"id": "weather.rain.no_rainfall",
+		"translation": "pas de précipitations"
+	},
+	{
+		"id": "weather.rain.low_rainfall",
+		"translation": "précipitations faibles"
+	},
+	{
+		"id": "weather.rain.moderate_rainfall",
+		"translation": "précipitations modérées"
+	},
+	{
+		"id": "weather.rain.heavy_rainfall",
+		"translation": "précipitations fortes"
+	},
+	{
+		"id": "transport.tan.invalid",
+		"translation": "commande tan invalide\nexemple: tan t1 'lauriers' 'beaujoire'"
+	},
+	{
+		"id": "transport.stif.invalid",
+		"translation": "commande stif invalide\nexemple: stif m1 'concorde' 'argentine' "
+	},
+  {
+		"id": "transport.at",
+		"translation": "à"
+	},
+  {
+		"id": "transport.less_than_1_minute",
+		"translation": "< 1min"
+	},
+  {
+		"id": "transport.more_than_1_hour",
+		"translation": "> 1h"
+	},
+	{
+		"id": "transport.no_service",
+		"translation": "pas de service"
+	},
+	{
+		"id": "transport.unknown_line",
+		"translation": "ligne inconnue"
+	},
+	{
+		"id": "transport.unknown_stop",
+		"translation": "arrêt inconnu"
+	},
+	{
+		"id": "transport.unknown_direction",
+		"translation": "direction inconnue"
+	}
+]

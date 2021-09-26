@@ -1,0 +1,66 @@
+{
+   "status": "success",
+   "data": {
+      "query": {
+         "locale": "fr_fr",
+         "query": "lemonde",
+         "offset": 0
+      },
+      "cache": {
+         "key": "2845536d0ad8158177393af933bad566",
+         "created": 1553786123,
+         "expiration": 604800,
+         "status": "hits",
+         "age": 1024,
+         "version": 1,
+         "system": "R",
+         "mode": 3
+      },
+      "result": {
+         "total": 35,
+         "items": [
+            {
+               "title": "Le Monde",
+               "favicon": "\/\/s.qwant.com\/fav\/w\/i\/fr_wikipedia_org.ico",
+               "url": "https:\/\/fr.wikipedia.org\/wiki\/Le_Monde",
+               "source": "https:\/\/fr.wikipedia.org\/wiki\/Le_Monde",
+               "desc": "Le Monde est un journal fran\u00e7ais fond\u00e9 par Hubert Beuve-M\u00e9ry en 1944. C'est l'un des derniers quotidiens fran\u00e7ais dits \u00ab du soir \u00bb, qui para\u00eet \u00e0 Paris...",
+               "_id": "4c7f98cca81fd6ffa64920bb6622cb56",
+               "score": 0,
+               "position": 1
+            }
+         ],
+         "filters": {
+            "freshness": {
+               "label": "Freshness",
+               "name": "freshness",
+               "type": "dropdown",
+               "selected": "all",
+               "values": [
+                  {
+                     "value": "all",
+                     "label": "All time",
+                     "translate": true
+                  },
+                  {
+                     "value": "day",
+                     "label": "Past 24 hours",
+                     "translate": true
+                  },
+                  {
+                     "value": "week",
+                     "label": "Past week",
+                     "translate": true
+                  },
+                  {
+                     "value": "month",
+                     "label": "Past month",
+                     "translate": true
+                  }
+               ]
+            }
+         },
+         "version": "W"
+      }
+   }
+}

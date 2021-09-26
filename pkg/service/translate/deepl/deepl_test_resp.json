@@ -1,0 +1,43 @@
+{
+  "id": 0,
+  "jsonrpc": "2.0",
+  "result": {
+    "source_lang": "FR",
+    "source_lang_is_confident": 0,
+    "target_lang": "EN",
+    "translations": [
+      {
+        "beams": [
+          {
+            "num_symbols": 2,
+            "postprocessed_sentence": "house",
+            "score": -5000.78,
+            "totalLogProb": -1.74368
+          },
+          {
+            "num_symbols": 2,
+            "postprocessed_sentence": "home",
+            "score": -5000.86,
+            "totalLogProb": -1.92372
+          },
+          {
+            "num_symbols": 2,
+            "postprocessed_sentence": "household",
+            "score": -5001.11,
+            "totalLogProb": -2.48396
+          },
+          {
+            "num_symbols": 4,
+            "postprocessed_sentence": "homemade",
+            "score": -5001.57,
+            "totalLogProb": -3.89597
+          }
+        ],
+        "timeAfterPreprocessing": 0,
+        "timeReceivedFromEndpoint": 181,
+        "timeSentToEndpoint": 14,
+        "total_time_endpoint": 0
+      }
+    ]
+  }
+}

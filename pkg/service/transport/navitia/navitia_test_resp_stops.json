@@ -1,0 +1,68 @@
+{
+  "disruptions": [],
+  "pt_objects": [
+    {
+      "embedded_type": "stop_area",
+      "quality": 90,
+      "stop_area": {
+        "codes": [
+          {
+            "type": "external_code",
+            "value": "OIF59238"
+          },
+          {
+            "type": "source",
+            "value": "StopArea:59238"
+          }
+        ],
+        "name": "Bastille",
+        "links": [],
+        "coord": {
+          "lat": "48.85313",
+          "lon": "2.369237"
+        },
+        "label": "Bastille (Paris)",
+        "administrative_regions": [
+          {
+            "insee": "75056",
+            "name": "Paris",
+            "level": 8,
+            "coord": {
+              "lat": "48.856609",
+              "lon": "2.351499"
+            },
+            "label": "Paris (75000-78116)",
+            "id": "admin:fr:75056",
+            "zip_code": "75000;75001;75002;75003;75004;75005;75006;75007;75008;75009;75010;75011;75012;75013;75014;75015;75016;75017;75018;75019;75020;78116"
+          }
+        ],
+        "timezone": "Europe/Paris",
+        "id": "stop_area:OIF:SA:59238"
+      },
+      "name": "Bastille (Paris)",
+      "id": "stop_area:OIF:SA:59238"
+    }
+  ],
+  "links": [
+    {
+      "href": "https://api.navitia.io/v1/coverage/fr-idf/stop_areas/{stop_area.id}",
+      "type": "stop_area",
+      "rel": "stop_areas",
+      "templated": true
+    }
+  ],
+  "feed_publishers": [
+    {
+      "url": "https://www.openstreetmap.org/copyright",
+      "id": "osm",
+      "license": "ODbL",
+      "name": "openstreetmap"
+    },
+    {
+      "url": "http://www.vianavigo.com",
+      "id": "OIF",
+      "license": "ODbL",
+      "name": "OIF - STIF Ile de France"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "idLieu": "441090",
+  "echeance": "201708122300",
+  "lastUpdate": "22h50",
+  "isAvailable": true,
+  "hasData": true,
+  "niveauPluieText": [
+    "De23h00 à 00h00 : Pas de précipitations"
+  ],
+  "dataCadran": [
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    },
+    {
+      "niveauPluieText": "Pas de précipitations",
+      "niveauPluie": 1,
+      "color": "ffffff"
+    }
+  ]
+}

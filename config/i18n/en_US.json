@@ -1,0 +1,134 @@
+[
+	{
+		"id": "error",
+		"translation": "sorry, an error occurred"
+	},
+  {
+		"id": "error.wrong_input",
+		"translation": "sorry, wrong inputs"
+	},
+	{
+		"id": "common.separator.comma",
+		"translation": ", "
+	},
+	{
+		"id": "common.separator.colon",
+		"translation": ": "
+	},
+  {
+		"id": "common.separator.hyphen",
+		"translation": " - "
+	},
+  {
+		"id": "common.minutes.short",
+		"translation": "min"
+	},
+  {
+		"id": "command.unknown",
+		"translation": "sorry, I do not know this command"
+	},
+	{
+		"id": "search.invalid",
+		"translation": "search command invalid\nexample: search funny words"
+	},
+	{
+		"id": "search.no_data",
+		"translation": "no search results"
+	},
+	{
+		"id": "translate.invalid",
+		"translation": "translate command invalid\nexample en to fr: translate funny words\nexample: translate en fr funny words"
+	},
+	{
+		"id": "cyclocity.invalid",
+		"translation": "cyclocity command invalid\nexample: cyclocity nantes gare maritime"
+	},
+	{
+		"id": "cyclocity.available_bikes",
+		"translation": "available bikes"
+	},
+	{
+		"id": "cyclocity.available_bike_stands",
+		"translation": "available bike stands"
+	},
+	{
+		"id": "bicloo.invalid",
+		"translation": "bicloo command invalid\nexample: bicloo gare maritime"
+	},
+	{
+		"id": "weather.invalid",
+		"translation": "weather command invalid\nexample day: weather nantes\nexample hour: weather hour nantes"
+	},
+	{
+		"id": "weather.no_data",
+		"translation": "no data available"
+	},
+	{
+		"id": "weather.rain.invalid",
+		"translation": "rain command invalid\nexample: rain nantes"
+	},
+	{
+		"id": "weather.rain.not_available",
+		"translation": "rain data not available for this city"
+	},
+	{
+		"id": "weather.rain.no_data",
+		"translation": "no rain data for this city"
+	},
+	{
+		"id": "weather.rain.no_data_available",
+		"translation": "no data available"
+	},
+	{
+		"id": "weather.rain.no_rainfall",
+		"translation": "no rainfall"
+	},
+	{
+		"id": "weather.rain.low_rainfall",
+		"translation": "low rainfall"
+	},
+	{
+		"id": "weather.rain.moderate_rainfall",
+		"translation": "moderate rainfall"
+	},
+	{
+		"id": "weather.rain.heavy_rainfall",
+		"translation": "heavy rainfall"
+	},
+	{
+		"id": "transport.tan.invalid",
+		"translation": "tan command invalid\nexample: tan t1 'lauriers' 'beaujoire'"
+	},
+	{
+		"id": "transport.stif.invalid",
+		"translation": "stif command invalid\nexample: stif m1 'concorde' 'argentine' "
+	},
+	{
+		"id": "transport.at",
+		"translation": "at"
+	},
+  {
+		"id": "transport.less_than_1_minute",
+		"translation": "< 1min"
+	},
+  {
+		"id": "transport.more_than_1_hour",
+		"translation": "> 1h"
+	},
+	{
+		"id": "transport.no_service",
+		"translation": "no service"
+	},
+	{
+		"id": "transport.unknown_line",
+		"translation": "unknown line"
+	},
+	{
+		"id": "transport.unknown_stop",
+		"translation": "unknown sopt"
+	},
+	{
+		"id": "transport.unknown_direction",
+		"translation": "unknown direction"
+	}
+]

@@ -1,0 +1,1736 @@
+[
+  {
+    "number": 38,
+    "name": "00038-PLACE RICORDEAU",
+    "address": "PLACE RICORDEAU",
+    "position": {
+      "lat": 47.212108463141774,
+      "lng": -1.553049129320471
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 40,
+    "available_bike_stands": 6,
+    "available_bikes": 34,
+    "last_update": 1502574456000
+  },
+  {
+    "number": 66,
+    "name": "00066-CHANZY",
+    "address": "CHANZY - FACE AU 23 AVENUE DE CHANZY",
+    "position": {
+      "lat": 47.22542988533347,
+      "lng": -1.547999925907375
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 4,
+    "available_bikes": 11,
+    "last_update": 1502574731000
+  },
+  {
+    "number": 3,
+    "name": "00003-STRASBOURG",
+    "address": "STRASBOURG - PLACE TIRANT LO BLANC",
+    "position": {
+      "lat": 47.216479771820744,
+      "lng": -1.55154060534636
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 5,
+    "available_bikes": 10,
+    "last_update": 1502574799000
+  },
+  {
+    "number": 2,
+    "name": "00002-HÔTEL DE VILLE",
+    "address": "HÔTEL DE VILLE - FACE AU 29 RUE DE STRASBOURG",
+    "position": {
+      "lat": 47.21857181309145,
+      "lng": -1.553484290392954
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 3,
+    "available_bikes": 17,
+    "last_update": 1502574544000
+  },
+  {
+    "number": 43,
+    "name": "00043 - MACHINE DE L'ÎLE",
+    "address": "MACHINE DE L'ÎLE - 3 BD LEON BUREAU",
+    "position": {
+      "lat": 47.20691895869599,
+      "lng": -1.564806790782994
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 30,
+    "available_bike_stands": 0,
+    "available_bikes": 30,
+    "last_update": 1502574470000
+  },
+  {
+    "number": 84,
+    "name": "00084-RÉGION",
+    "address": "REGION - RUE DE LA LOIRE",
+    "position": {
+      "lat": 47.21074214218137,
+      "lng": -1.525933451925082
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 19,
+    "available_bike_stands": 11,
+    "available_bikes": 8,
+    "last_update": 1502574880000
+  },
+  {
+    "number": 40,
+    "name": "00040-MADELEINE",
+    "address": "MADELEINE - 2 QUAI MONCOUSU",
+    "position": {
+      "lat": 47.208804642437784,
+      "lng": -1.550411914119152
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 14,
+    "available_bikes": 1,
+    "last_update": 1502574497000
+  },
+  {
+    "number": 22,
+    "name": "00022-MOQUECHIEN",
+    "address": "MOQUECHIEN - 8 RUE MOQUECHIEN",
+    "position": {
+      "lat": 47.220392126691955,
+      "lng": -1.555531041936261
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 6,
+    "available_bikes": 10,
+    "last_update": 1502574596000
+  },
+  {
+    "number": 42,
+    "name": "00042-GARE MARITIME",
+    "address": "GARE MARITIME - PLACE JACKSONVILLE",
+    "position": {
+      "lat": 47.20659772898787,
+      "lng": -1.572610286970505
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 25,
+    "available_bike_stands": 4,
+    "available_bikes": 21,
+    "last_update": 1502574764000
+  },
+  {
+    "number": 102,
+    "name": "00102-GARE PT ROUSSEAU",
+    "address": "GARE PONT ROUSSEAU - RUE DE LA GARE - REZE",
+    "position": {
+      "lat": 47.19280351379784,
+      "lng": -1.549291898557657
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 3,
+    "available_bikes": 17,
+    "last_update": 1502574512000
+  },
+  {
+    "number": 56,
+    "name": "00056-VINCENT GACHE",
+    "address": "VINCENT GACHE - 9 RUE FRANCOIS ALBERT",
+    "position": {
+      "lat": 47.206798618575256,
+      "lng": -1.541777739850638
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 12,
+    "available_bikes": 3,
+    "last_update": 1502574421000
+  },
+  {
+    "number": 7,
+    "name": "00007- BARILLERIE",
+    "address": "BARILLERIE - 2 ALLEE PENTHIEVRE",
+    "position": {
+      "lat": 47.215331358010445,
+      "lng": -1.556126125975167
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 5,
+    "available_bikes": 10,
+    "last_update": 1502574701000
+  },
+  {
+    "number": 45,
+    "name": "00045-PRAIRIE AU DUC",
+    "address": "PRAIRIE AU DUC - 25 BOULEVARD DE LA PRAIRIE AU DUC",
+    "position": {
+      "lat": 47.2047839355992,
+      "lng": -1.55892310936669
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 13,
+    "available_bike_stands": 13,
+    "available_bikes": 0,
+    "last_update": 1502574856000
+  },
+  {
+    "number": 10,
+    "name": "00010- PICASSO",
+    "address": "PICASSO - RUE PABLO PICASSO",
+    "position": {
+      "lat": 47.216369613307506,
+      "lng": -1.534184544523239
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 28,
+    "available_bike_stands": 21,
+    "available_bikes": 7,
+    "last_update": 1502574755000
+  },
+  {
+    "number": 62,
+    "name": "00062-GARE NORD",
+    "address": "GARE NORD - 1 PLACE CHARLES LE ROUX",
+    "position": {
+      "lat": 47.218132613316826,
+      "lng": -1.542208634875899
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 40,
+    "available_bike_stands": 27,
+    "available_bikes": 13,
+    "last_update": 1502574381000
+  },
+  {
+    "number": 58,
+    "name": "00058-PALAIS DES SPORTS",
+    "address": "PALAIS DES SPORTS - 21 RUE RENE VIVIANI",
+    "position": {
+      "lat": 47.208466072191925,
+      "lng": -1.535981000861306
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 14,
+    "available_bikes": 1,
+    "last_update": 1502574703000
+  },
+  {
+    "number": 94,
+    "name": "00094-PETIT PORT",
+    "address": "PETIT PORT - BD DU PETIT PORT",
+    "position": {
+      "lat": 47.243263914975486,
+      "lng": -1.556344610167984
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 14,
+    "available_bikes": 6,
+    "last_update": 1502574443000
+  },
+  {
+    "number": 31,
+    "name": "00031-BOURSE",
+    "address": "BOURSE - SQUARE DE LA BOURSE",
+    "position": {
+      "lat": 47.212083030753185,
+      "lng": -1.559086551239872
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 6,
+    "available_bikes": 10,
+    "last_update": 1502574756000
+  },
+  {
+    "number": 74,
+    "name": "00074-CANCLAUX",
+    "address": "CANCLAUX - 8 PLACE CANCLAUX",
+    "position": {
+      "lat": 47.21433366088933,
+      "lng": -1.574924617192968
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 9,
+    "available_bikes": 6,
+    "last_update": 1502574529000
+  },
+  {
+    "number": 72,
+    "name": "00072-BELLAMY-GUÉ MOREAU",
+    "address": "Bellamy-Gué Moreau-138 rue Paul Bellamy",
+    "position": {
+      "lat": 47.22862569057461,
+      "lng": -1.561806393011127
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 3,
+    "available_bikes": 11,
+    "last_update": 1502574399000
+  },
+  {
+    "number": 19,
+    "name": "00019-SAINT SIMILIEN",
+    "address": "SAINT SIMILIEN - 1 PLACE SAINT SIMILIEN",
+    "position": {
+      "lat": 47.219854467329974,
+      "lng": -1.558920890474776
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 11,
+    "available_bikes": 4,
+    "last_update": 1502574562000
+  },
+  {
+    "number": 51,
+    "name": "00051-TABARLY",
+    "address": "3 BOULEVARD DE BERLIN DEVANT MAISON DE QUARTIER",
+    "position": {
+      "lat": 47.2141946314965,
+      "lng": -1.52973588598036
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "CLOSED",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 0,
+    "available_bikes": 0,
+    "last_update": 1502574660000
+  },
+  {
+    "number": 89,
+    "name": "00089-SAINT-AIGNAN",
+    "address": "SAINT AIGNAN - 65 BD ST AIGNAN",
+    "position": {
+      "lat": 47.20743863754715,
+      "lng": -1.578689264310988
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 12,
+    "available_bikes": 2,
+    "last_update": 1502574482000
+  },
+  {
+    "number": 77,
+    "name": "00077-ECOLE D'ARCHITECTURE",
+    "address": "ECOLE D'ARCHITECTURE - QUAI F MITTERRAND",
+    "position": {
+      "lat": 47.207605640212115,
+      "lng": -1.557532467914316
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 25,
+    "available_bike_stands": 25,
+    "available_bikes": 0,
+    "last_update": 1502574928000
+  },
+  {
+    "number": 87,
+    "name": "00087-ANATOLE FRANCE",
+    "address": "ANATOLE FRANCE - 41 RUE ALEXANDRE DUMAS",
+    "position": {
+      "lat": 47.223604815399085,
+      "lng": -1.571373578112414
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 9,
+    "available_bikes": 6,
+    "last_update": 1502574649000
+  },
+  {
+    "number": 47,
+    "name": "00047- MARTYRS NANTAIS",
+    "address": "MARTYRS NANTAIS - 1 BD DES MARTYRS NANTAIS",
+    "position": {
+      "lat": 47.20702417983412,
+      "lng": -1.548161311046709
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 12,
+    "available_bikes": 3,
+    "last_update": 1502574943000
+  },
+  {
+    "number": 97,
+    "name": "00097-SAINT DONATIEN",
+    "address": "SAINT DONATIEN - PLACE DU 51éme RIMA",
+    "position": {
+      "lat": 47.22908808709286,
+      "lng": -1.540292594289221
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 5,
+    "available_bikes": 15,
+    "last_update": 1502574680000
+  },
+  {
+    "number": 30,
+    "name": "00030-COMMERCE",
+    "address": "COMMERCE - FACE PLACE DU COMMERCE",
+    "position": {
+      "lat": 47.21312055103121,
+      "lng": -1.557393235628245
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 39,
+    "available_bike_stands": 2,
+    "available_bikes": 36,
+    "last_update": 1502574784000
+  },
+  {
+    "number": 27,
+    "name": "00027-GUIST'HAU NORD",
+    "address": "GUIST'HAU NORD - 42 BD GUIST'HAU",
+    "position": {
+      "lat": 47.21792981632508,
+      "lng": -1.569171883302444
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 9,
+    "available_bikes": 6,
+    "last_update": 1502574346000
+  },
+  {
+    "number": 15,
+    "name": "00015-PLACE ARISTIDE BRIAND",
+    "address": "PLACE ARISTIDE BRIAND",
+    "position": {
+      "lat": 47.21718482329023,
+      "lng": -1.562986793288367
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 17,
+    "available_bike_stands": 5,
+    "available_bikes": 12,
+    "last_update": 1502574929000
+  },
+  {
+    "number": 83,
+    "name": "00083-MILLERAND",
+    "address": "MILLERAND - 9 BD ALEXANDRE MILLERAND",
+    "position": {
+      "lat": 47.208199645038825,
+      "lng": -1.530180435959972
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 13,
+    "available_bikes": 1,
+    "last_update": 1502574790000
+  },
+  {
+    "number": 34,
+    "name": "00034-MEDIATHEQUE",
+    "address": "MEDIATHEQUE - 24 QUAI DE LA FOSSE",
+    "position": {
+      "lat": 47.210886925815934,
+      "lng": -1.561744905652581
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 2,
+    "available_bikes": 18,
+    "last_update": 1502574480000
+  },
+  {
+    "number": 91,
+    "name": "00091-RD PT VANNES",
+    "address": "RD PT VANNES - 65 BD LE LASSEUR",
+    "position": {
+      "lat": 47.229580605369215,
+      "lng": -1.572114577993728
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 18,
+    "available_bike_stands": 15,
+    "available_bikes": 1,
+    "last_update": 1502574441000
+  },
+  {
+    "number": 46,
+    "name": "00046-PLACE REPUBLIQUE",
+    "address": "PLACE DE LA REPUBLIQUE - 3 PLACE DE LA REPUBLIQUE",
+    "position": {
+      "lat": 47.20532409029517,
+      "lng": -1.555183107916184
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 16,
+    "available_bikes": 4,
+    "last_update": 1502574380000
+  },
+  {
+    "number": 20,
+    "name": "00020-BELLAMY",
+    "address": "BELLAMY - 50 RUE PAUL BELLAMY",
+    "position": {
+      "lat": 47.222902006053054,
+      "lng": -1.557229797031573
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 6,
+    "available_bikes": 9,
+    "last_update": 1502574524000
+  },
+  {
+    "number": 81,
+    "name": "00081 - MANGIN",
+    "address": "MANGIN - DEV 8 PLACE MANGIN",
+    "position": {
+      "lat": 47.20095551723967,
+      "lng": -1.545507251231619
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 10,
+    "available_bikes": 3,
+    "last_update": 1502574532000
+  },
+  {
+    "number": 55,
+    "name": "00055-MAGELLAN",
+    "address": "MAGELLAN - 11 RUE DE BELFORT",
+    "position": {
+      "lat": 47.21078140655944,
+      "lng": -1.544298470945214
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 5,
+    "available_bikes": 10,
+    "last_update": 1502574757000
+  },
+  {
+    "number": 78,
+    "name": "00078-DE GAULLE",
+    "address": "DE GAULLE - PONT A. BRIAND / BD DE GAULLE",
+    "position": {
+      "lat": 47.20844367718286,
+      "lng": -1.540514488290191
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 15,
+    "available_bikes": 0,
+    "last_update": 1502574501000
+  },
+  {
+    "number": 67,
+    "name": "00067-PLACE WALDECK ROUSSEAU",
+    "address": "PLACE WALDECK ROUSSEAU",
+    "position": {
+      "lat": 47.22777476106513,
+      "lng": -1.552147986072217
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 19,
+    "available_bike_stands": 18,
+    "available_bikes": 1,
+    "last_update": 1502574592000
+  },
+  {
+    "number": 57,
+    "name": "00057-GAETAN RONDEAU",
+    "address": "GAETAN RONDEAU - 20 RUE GAETAN RONDEAU",
+    "position": {
+      "lat": 47.205396132179104,
+      "lng": -1.537581863003988
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 3,
+    "available_bikes": 17,
+    "last_update": 1502574576000
+  },
+  {
+    "number": 79,
+    "name": "00079-MALAKOFF",
+    "address": "MALAKOFF - 15 QUAI MALAKOFF",
+    "position": {
+      "lat": 47.213237140630014,
+      "lng": -1.536511118183477
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 7,
+    "available_bikes": 8,
+    "last_update": 1502574388000
+  },
+  {
+    "number": 75,
+    "name": "00075-LAMORICIERE",
+    "address": "LAMORICIERE - PLACE BEAUMANOIR",
+    "position": {
+      "lat": 47.21230895884701,
+      "lng": -1.571369360221906
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 18,
+    "available_bike_stands": 14,
+    "available_bikes": 4,
+    "last_update": 1502574435000
+  },
+  {
+    "number": 18,
+    "name": "00018-PLACE VIARME",
+    "address": "PLACE VIARME - 23 PLACE VIARME",
+    "position": {
+      "lat": 47.22142933898549,
+      "lng": -1.563308366869757
+    },
+    "banking": true,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 13,
+    "available_bikes": 1,
+    "last_update": 1502574463000
+  },
+  {
+    "number": 95,
+    "name": "00095-MICHELET",
+    "address": "MICHELET - BD MICHELET",
+    "position": {
+      "lat": 47.234687038295554,
+      "lng": -1.556421138973112
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 25,
+    "available_bike_stands": 14,
+    "available_bikes": 11,
+    "last_update": 1502574891000
+  },
+  {
+    "number": 85,
+    "name": "00085-BEL AIR",
+    "address": "BEL AIR - 102 RUE PAUL BELLAMY",
+    "position": {
+      "lat": 47.226394430986105,
+      "lng": -1.560022819676629
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 9,
+    "available_bikes": 5,
+    "last_update": 1502574876000
+  },
+  {
+    "number": 92,
+    "name": "00092-DT PT RENNES",
+    "address": "RD PT RENNES - ANGLE BD LE LASSEUR & RUE PAUL BELLAMY",
+    "position": {
+      "lat": 47.23302818477594,
+      "lng": -1.56605906933562
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 18,
+    "available_bikes": 2,
+    "last_update": 1502574611000
+  },
+  {
+    "number": 53,
+    "name": "00053-OLIVETTES",
+    "address": "OLIVETTES - 10 RUE DES OLIVETTES",
+    "position": {
+      "lat": 47.211736393222054,
+      "lng": -1.549886024937758
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 11,
+    "available_bikes": 4,
+    "last_update": 1502574376000
+  },
+  {
+    "number": 59,
+    "name": "00059-STADE SAUPIN",
+    "address": "STADE SAUPIN - 35 QUAI MALAKOFF",
+    "position": {
+      "lat": 47.21391161818379,
+      "lng": -1.539712888264826
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 13,
+    "available_bikes": 2,
+    "last_update": 1502574740000
+  },
+  {
+    "number": 76,
+    "name": "00076-PLACE RENÉ BOUHIER",
+    "address": "PLACE RENE BOUHIER - 8 PLACE RENE BOUHIER",
+    "position": {
+      "lat": 47.209429092524424,
+      "lng": -1.570515336280715
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 7,
+    "available_bikes": 8,
+    "last_update": 1502574368000
+  },
+  {
+    "number": 8,
+    "name": "00008-BOUCHERIE",
+    "address": "BOUCHERIE - FACE AU 4 RUE DE LA BOUCHERIE",
+    "position": {
+      "lat": 47.21620089258823,
+      "lng": -1.557111680197571
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 19,
+    "available_bike_stands": 4,
+    "available_bikes": 15,
+    "last_update": 1502574815000
+  },
+  {
+    "number": 73,
+    "name": "00073-SARRADIN",
+    "address": "SARRADIN - FACE AU 4 PLACE SARRADIN",
+    "position": {
+      "lat": 47.220882433018865,
+      "lng": -1.570438598073934
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 13,
+    "available_bike_stands": 3,
+    "available_bikes": 9,
+    "last_update": 1502574496000
+  },
+  {
+    "number": 49,
+    "name": "00049-DUCHESSE ANNE",
+    "address": "DUCHESSE ANNE - 2 PLACE DE LA DUCHESSE ANNE",
+    "position": {
+      "lat": 47.21651740326776,
+      "lng": -1.547058938534335
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 0,
+    "available_bikes": 15,
+    "last_update": 1502574456000
+  },
+  {
+    "number": 93,
+    "name": "00093-FACULTES",
+    "address": "FACULTES - ANGLE ROUTE DE LA JONELIERE & BD G. MOLLET",
+    "position": {
+      "lat": 47.246298068423485,
+      "lng": -1.555309011107301
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 40,
+    "available_bike_stands": 9,
+    "available_bikes": 31,
+    "last_update": 1502574449000
+  },
+  {
+    "number": 48,
+    "name": "00048-VERDUN",
+    "address": "VERDUN - 15 RUE DE VERDUN",
+    "position": {
+      "lat": 47.217505374678645,
+      "lng": -1.551849784370311
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 6,
+    "available_bikes": 8,
+    "last_update": 1502574526000
+  },
+  {
+    "number": 1,
+    "name": "00001-PREFECTURE",
+    "address": "PREFECTURE - 5 QUAI CEINERAY",
+    "position": {
+      "lat": 47.220255183724454,
+      "lng": -1.55408380740881
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 25,
+    "available_bike_stands": 22,
+    "available_bikes": 3,
+    "last_update": 1502574661000
+  },
+  {
+    "number": 23,
+    "name": "00023-BUAT",
+    "address": "BUAT - 118 RUE DE COULMIERS",
+    "position": {
+      "lat": 47.227145468224634,
+      "lng": -1.542404741250403
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 11,
+    "available_bike_stands": 5,
+    "available_bikes": 6,
+    "last_update": 1502574370000
+  },
+  {
+    "number": 90,
+    "name": "00090-PROCE",
+    "address": "PROCE - ANGLE BD G. SERPETTE & BD A. PAGEOT",
+    "position": {
+      "lat": 47.22419506173264,
+      "lng": -1.576612843727262
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 3,
+    "available_bikes": 12,
+    "last_update": 1502574534000
+  },
+  {
+    "number": 32,
+    "name": "00032-FOCH",
+    "address": "FOCH - PLACE FOCH",
+    "position": {
+      "lat": 47.2191122,
+      "lng": -1.5502297
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 13,
+    "available_bikes": 2,
+    "last_update": 1502574517000
+  },
+  {
+    "number": 17,
+    "name": "00017-SAINTE ELISABETH",
+    "address": "SAINTE ELISABTEH - 3 PLACE STE ELISABETH",
+    "position": {
+      "lat": 47.21921395261352,
+      "lng": -1.561570147641708
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 14,
+    "available_bikes": 0,
+    "last_update": 1502574900000
+  },
+  {
+    "number": 29,
+    "name": "00029-DUGUAY TROUIN",
+    "address": "DUGUAY TROUIN - 7 ALLEE DUGUAY TROUIN",
+    "position": {
+      "lat": 47.213450231365094,
+      "lng": -1.555269922656021
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 4,
+    "available_bikes": 11,
+    "last_update": 1502574666000
+  },
+  {
+    "number": 50,
+    "name": "00050-CHATEAU",
+    "address": "CHATEAU - 7 RUE DES ETATS",
+    "position": {
+      "lat": 47.2151496951626,
+      "lng": -1.55022624256337
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 6,
+    "available_bikes": 10,
+    "last_update": 1502574591000
+  },
+  {
+    "number": 37,
+    "name": "00037-FEYDEAU",
+    "address": "FEYDEAU - 1 ALLEE ILE GLORIETTE",
+    "position": {
+      "lat": 47.211465063355035,
+      "lng": -1.5568245371939
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 21,
+    "available_bike_stands": 3,
+    "available_bikes": 18,
+    "last_update": 1502574939000
+  },
+  {
+    "number": 86,
+    "name": "00086-HAUTS PAVÉS",
+    "address": "HAUT PAVES - ANGLE RUE DE BERRY/RUE DES HAUTS PAVES",
+    "position": {
+      "lat": 47.22547062698044,
+      "lng": -1.567501842502272
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 16,
+    "available_bikes": 0,
+    "last_update": 1502574919000
+  },
+  {
+    "number": 39,
+    "name": "00039-QUAI MONCOUSU",
+    "address": "QUAI MONCOUSU - 11 QUAI MONCOUSU",
+    "position": {
+      "lat": 47.209406573873714,
+      "lng": -1.555233144631466
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 19,
+    "available_bike_stands": 19,
+    "available_bikes": 0,
+    "last_update": 1502574425000
+  },
+  {
+    "number": 35,
+    "name": "00035-JEAN V",
+    "address": "JEAN V - 2 PLACE JEAN V",
+    "position": {
+      "lat": 47.212168974412094,
+      "lng": -1.565543986075099
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 15,
+    "available_bikes": 0,
+    "last_update": 1502574668000
+  },
+  {
+    "number": 25,
+    "name": "00025-DALBY",
+    "address": "DALBY- 61 BD ERNEST DALBY FACE STATION SERVICE",
+    "position": {
+      "lat": 47.223508869811994,
+      "lng": -1.529959592703474
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 6,
+    "available_bikes": 9,
+    "last_update": 1502574511000
+  },
+  {
+    "number": 44,
+    "name": "00044-PALAIS DE JUSTICE",
+    "address": "PALAIS DE JUSTICE - 19 QUAI FRANCOIS MITTERAND",
+    "position": {
+      "lat": 47.20831728844152,
+      "lng": -1.561173077989395
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 25,
+    "available_bike_stands": 19,
+    "available_bikes": 5,
+    "last_update": 1502574937000
+  },
+  {
+    "number": 99,
+    "name": "00099-ST JACQUES",
+    "address": "ST JACQUES - RUE ST JACQUES",
+    "position": {
+      "lat": 47.1958989090141,
+      "lng": -1.536540663464699
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 6,
+    "available_bikes": 9,
+    "last_update": 1502574493000
+  },
+  {
+    "number": 80,
+    "name": "00080 - VICTOR HUGO",
+    "address": "VICTOR HUGO - BD VICTOR HUGO",
+    "position": {
+      "lat": 47.204003208491145,
+      "lng": -1.551548484803203
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 12,
+    "available_bikes": 3,
+    "last_update": 1502574900000
+  },
+  {
+    "number": 61,
+    "name": "00061-LU - LIEU UNIQUE",
+    "address": "LIEU UNIQUE - FACE 23 QUAI FERDINAND FAVRE",
+    "position": {
+      "lat": 47.215591463959825,
+      "lng": -1.545905939112105
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 5,
+    "available_bikes": 10,
+    "last_update": 1502574898000
+  },
+  {
+    "number": 21,
+    "name": "00021-MARCHE TALENSAC SUD",
+    "address": "MARCHE TALENSAC SUD - 6 RUE TALENSAC",
+    "position": {
+      "lat": 47.22114332912908,
+      "lng": -1.556476339327795
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 15,
+    "available_bikes": 1,
+    "last_update": 1502574877000
+  },
+  {
+    "number": 71,
+    "name": "00071-MARCHE TALENSAC NORD",
+    "address": "MARCHE TALENSAC NORD - 18 RUE TALENSAC",
+    "position": {
+      "lat": 47.22185363818837,
+      "lng": -1.558940746690739
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 12,
+    "available_bikes": 2,
+    "last_update": 1502574692000
+  },
+  {
+    "number": 41,
+    "name": "00041-CHANTIER NAVAL",
+    "address": "CHANTIER NAVAL - 89 QUAI DE LA FOSSE",
+    "position": {
+      "lat": 47.2083574798195,
+      "lng": -1.56952404874215
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 2,
+    "available_bikes": 13,
+    "last_update": 1502574451000
+  },
+  {
+    "number": 12,
+    "name": "00012-PLACE DELORME",
+    "address": "PLACE DELORME",
+    "position": {
+      "lat": 47.21515818868574,
+      "lng": -1.563900673465861
+    },
+    "banking": true,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 18,
+    "available_bikes": 1,
+    "last_update": 1502574455000
+  },
+  {
+    "number": 98,
+    "name": "00098-HUIT MAI",
+    "address": "HUIT MAI - AVENUE DE LA LIBERATION - REZE",
+    "position": {
+      "lat": 47.18921204751304,
+      "lng": -1.550828036456355
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 11,
+    "available_bikes": 4,
+    "last_update": 1502574444000
+  },
+  {
+    "number": 26,
+    "name": "00026-GUIST'HAU SUD",
+    "address": "GUIST'HAU SUD - 26 BOULEVARD GUIST'HAU",
+    "position": {
+      "lat": 47.21682795997449,
+      "lng": -1.567004526265165
+    },
+    "banking": true,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 15,
+    "available_bikes": 0,
+    "last_update": 1502574739000
+  },
+  {
+    "number": 52,
+    "name": "00052-BACO",
+    "address": "BACO - FACE AU 8 ALLEE BACO",
+    "position": {
+      "lat": 47.214327524589145,
+      "lng": -1.548750555741977
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 2,
+    "available_bikes": 13,
+    "last_update": 1502574529000
+  },
+  {
+    "number": 11,
+    "name": "00011-CALVAIRE",
+    "address": "CALVAIRE - PL.DES VOLONTAIRES DE LA DEFENSE PASSIVE",
+    "position": {
+      "lat": 47.215578942427136,
+      "lng": -1.560675283700123
+    },
+    "banking": true,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 14,
+    "available_bikes": 1,
+    "last_update": 1502574439000
+  },
+  {
+    "number": 63,
+    "name": "00063-JARDIN DES PLANTES",
+    "address": "JARDIN DES PLANTES - 6 RUE STANILAS BAUDRY",
+    "position": {
+      "lat": 47.219834197318974,
+      "lng": -1.544718964531585
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 35,
+    "available_bike_stands": 35,
+    "available_bikes": 0,
+    "last_update": 1502574503000
+  },
+  {
+    "number": 16,
+    "name": "00016-PLACE EDOUARD NORMAND",
+    "address": "PLACE EDOUARD NORMAND - FACE AU 7 PLACE EDOUARD NORMAND",
+    "position": {
+      "lat": 47.21902754473837,
+      "lng": -1.563419484053747
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 14,
+    "available_bikes": 1,
+    "last_update": 1502574717000
+  },
+  {
+    "number": 88,
+    "name": "00088-MELLINET",
+    "address": "MELLINET - 1 BD ALLARD",
+    "position": {
+      "lat": 47.211501070117826,
+      "lng": -1.577175414321782
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 0,
+    "available_bikes": 15,
+    "last_update": 1502574355000
+  },
+  {
+    "number": 70,
+    "name": "00070-GARE SUD 2",
+    "address": "Quai Malakoff - côté canal st Félix",
+    "position": {
+      "lat": 47.215505,
+      "lng": -1.542844
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 30,
+    "available_bike_stands": 7,
+    "available_bikes": 23,
+    "last_update": 1502574754000
+  },
+  {
+    "number": 4,
+    "name": "00004-MOULIN",
+    "address": "MOULIN - FACE AU 18 RUE DU MOULIN",
+    "position": {
+      "lat": 47.216667582015184,
+      "lng": -1.5543847138777
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 13,
+    "available_bike_stands": 2,
+    "available_bikes": 11,
+    "last_update": 1502574814000
+  },
+  {
+    "number": 96,
+    "name": "00096-TORTIERE",
+    "address": "TORTIERE - BD EUGENE ORIEUX",
+    "position": {
+      "lat": 47.235335222208626,
+      "lng": -1.549221766809888
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 8,
+    "available_bikes": 8,
+    "last_update": 1502574482000
+  },
+  {
+    "number": 64,
+    "name": "00064-SAINT CLEMENT",
+    "address": "SAINT CLEMENT - FACE AU 37 RUE DU MARECHAL JOFFRE",
+    "position": {
+      "lat": 47.221785183522634,
+      "lng": -1.547099233718495
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 14,
+    "available_bikes": 1,
+    "last_update": 1502574430000
+  },
+  {
+    "number": 9,
+    "name": "00009-GUEPIN",
+    "address": "GUEPIN - 8 RUE DE L'ARCHE SECHE",
+    "position": {
+      "lat": 47.215814587139455,
+      "lng": -1.559017485167438
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 7,
+    "available_bikes": 7,
+    "last_update": 1502574805000
+  },
+  {
+    "number": 33,
+    "name": "00033-RACINE",
+    "address": "RACINE - 4 RUE RACINE",
+    "position": {
+      "lat": 47.213522613719896,
+      "lng": -1.563140874431397
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 4,
+    "available_bikes": 10,
+    "last_update": 1502574351000
+  },
+  {
+    "number": 60,
+    "name": "00060-GARE SUD",
+    "address": "GARE SUD - FACE 12 RUE LOURMEL",
+    "position": {
+      "lat": 47.215919436013635,
+      "lng": -1.542847782057658
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 40,
+    "available_bike_stands": 2,
+    "available_bikes": 38,
+    "last_update": 1502574699000
+  },
+  {
+    "number": 24,
+    "name": "00024-VERSAILLES",
+    "address": "VERSAILLES - FACE AU 25 QUAI DE VERSAILLES",
+    "position": {
+      "lat": 47.22451490719107,
+      "lng": -1.553711961402328
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 2,
+    "available_bikes": 13,
+    "last_update": 1502574514000
+  },
+  {
+    "number": 69,
+    "name": "00069 - MANUFACTURE",
+    "address": "MANUFACTURE - 11 BIS BD STALINGRAD",
+    "position": {
+      "lat": 47.219216380711345,
+      "lng": -1.535847443276377
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 0,
+    "available_bikes": 15,
+    "last_update": 1502574813000
+  },
+  {
+    "number": 36,
+    "name": "00036-ALGER",
+    "address": "ALGER - 10 RUE D'ALGER",
+    "position": {
+      "lat": 47.210549,
+      "lng": -1.567368
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 9,
+    "available_bikes": 6,
+    "last_update": 1502574757000
+  },
+  {
+    "number": 82,
+    "name": "00082-SEBILLEAU",
+    "address": "SEBILLEAU - 9 RUE GAETAN RONDEAU",
+    "position": {
+      "lat": 47.206757512308414,
+      "lng": -1.533118244923623
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 16,
+    "available_bike_stands": 2,
+    "available_bikes": 14,
+    "last_update": 1502574500000
+  },
+  {
+    "number": 5,
+    "name": "00005-BROSSARD",
+    "address": "BROSSARD - 12 Allée Duquesne",
+    "position": {
+      "lat": 47.2188372304694,
+      "lng": -1.55674926307655
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 0,
+    "available_bikes": 15,
+    "last_update": 1502574684000
+  },
+  {
+    "number": 101,
+    "name": "00101 - PIRMIL",
+    "address": "PIRMIL - RUE ESNOUL DES CHATELETS",
+    "position": {
+      "lat": 47.1965313642396,
+      "lng": -1.54156809120326
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 28,
+    "available_bike_stands": 3,
+    "available_bikes": 25,
+    "last_update": 1502574934000
+  },
+  {
+    "number": 100,
+    "name": "00100 - GRENERAIE",
+    "address": "GRENERAIE - PARC DE LA GRENERAIE",
+    "position": {
+      "lat": 47.199923092905216,
+      "lng": -1.534717540470481
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 13,
+    "available_bikes": 7,
+    "last_update": 1502574715000
+  },
+  {
+    "number": 54,
+    "name": "00054- CITE INTERNATIONALE DES CONGRES",
+    "address": "CITE INTERNATIONAL DES CONGRES - 2 RUE DE JEMMAPES",
+    "position": {
+      "lat": 47.213180085527846,
+      "lng": -1.544952541668585
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 30,
+    "available_bike_stands": 21,
+    "available_bikes": 9,
+    "last_update": 1502574540000
+  },
+  {
+    "number": 14,
+    "name": "00014-SAINT FÉLIX",
+    "address": "Saint Félix - 35 Boulevard Amiral Courbet",
+    "position": {
+      "lat": 47.230334,
+      "lng": -1.556133
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 14,
+    "available_bike_stands": 12,
+    "available_bikes": 2,
+    "last_update": 1502574711000
+  },
+  {
+    "number": 28,
+    "name": "00028- PLACE DE L'EDIT NANTES",
+    "address": "PLACE DE L'EDIT DE NANTES",
+    "position": {
+      "lat": 47.21446342738575,
+      "lng": -1.567568016663838
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 13,
+    "available_bike_stands": 11,
+    "available_bikes": 2,
+    "last_update": 1502574645000
+  },
+  {
+    "number": 68,
+    "name": "00068-LIVET",
+    "address": "LIVET - FACE AU 65 RUE DUFOUR",
+    "position": {
+      "lat": 47.2240678794875,
+      "lng": -1.54521243421509
+    },
+    "banking": false,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 10,
+    "available_bikes": 5,
+    "last_update": 1502574405000
+  },
+  {
+    "number": 65,
+    "name": "00065-COURS SULLY",
+    "address": "COURS SULLY - FACE AU 9 COURS SULLY",
+    "position": {
+      "lat": 47.222587339906696,
+      "lng": -1.551666442545979
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 12,
+    "available_bikes": 3,
+    "last_update": 1502574356000
+  },
+  {
+    "number": 13,
+    "name": "00013-BRETAGNE SUD",
+    "address": "BRETAGNE SUD - 1 RUE PIERRE CHEREAU",
+    "position": {
+      "lat": 47.216787949913034,
+      "lng": -1.559161066618992
+    },
+    "banking": false,
+    "bonus": true,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 20,
+    "available_bike_stands": 15,
+    "available_bikes": 5,
+    "last_update": 1502574424000
+  },
+  {
+    "number": 6,
+    "name": "00006-PLACE DU CIRQUE",
+    "address": "PLACE DU CIRQUE - 7 ALLEE DUQUESNE",
+    "position": {
+      "lat": 47.21759668240601,
+      "lng": -1.556937645378872
+    },
+    "banking": true,
+    "bonus": false,
+    "status": "OPEN",
+    "contract_name": "Nantes",
+    "bike_stands": 15,
+    "available_bike_stands": 3,
+    "available_bikes": 12,
+    "last_update": 1502574405000
+  }
+]

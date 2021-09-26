@@ -1,0 +1,3 @@
+/sms-query
+/sms-query-cli
+/cmd/sms-query/bindata.go

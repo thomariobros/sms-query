@@ -1,0 +1,80 @@
+[
+  {
+    "sens": 1,
+    "terminus": "François Mitterrand",
+    "infotrafic": false,
+    "temps": "22 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "LAUR2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": false,
+    "temps": "27 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "LAUR1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "François Mitterrand",
+    "infotrafic": false,
+    "temps": "52 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "LAUR2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": false,
+    "temps": "57 mn",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "LAUR1"
+    }
+  },
+  {
+    "sens": 1,
+    "terminus": "François Mitterrand",
+    "infotrafic": false,
+    "temps": ">1h",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "LAUR2"
+    }
+  },
+  {
+    "sens": 2,
+    "terminus": "Beaujoire",
+    "infotrafic": false,
+    "temps": ">1h",
+    "ligne": {
+      "numLigne": "1",
+      "typeLigne": 1
+    },
+    "arret": {
+      "codeArret": "LAUR1"
+    }
+  }
+]

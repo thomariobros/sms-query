@@ -1,0 +1,39 @@
+[{
+    "place_id": "173161941",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+    "osm_type": "relation",
+    "osm_id": "59874",
+    "boundingbox": [
+      "47.1805856",
+      "47.2958583",
+      "-1.6418115",
+      "-1.4788443"
+    ],
+    "lat": "47.2186371",
+    "lon": "-1.5541362",
+    "display_name": "Nantes, Loire-Atlantique, Pays de la Loire, Metropolitan France, 44000;44100;44200;44300, France",
+    "class": "place",
+    "type": "city",
+    "importance": 0.76004307268249,
+    "icon": "https://nominatim.openstreetmap.org/images/mapicons/poi_place_city.p.20.png"
+  },
+  {
+    "place_id": "173727210",
+    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright",
+    "osm_type": "relation",
+    "osm_id": "1658291",
+    "boundingbox": [
+      "46.8603369",
+      "47.3532684",
+      "-1.9393397",
+      "-1.1147605"
+    ],
+    "lat": "47.10641425",
+    "lon": "-1.53187228794254",
+    "display_name": "Nantes, Loire-Atlantique, Pays de la Loire, Metropolitan France, France",
+    "class": "boundary",
+    "type": "administrative",
+    "importance": 0.42926765694173,
+    "icon": "https://nominatim.openstreetmap.org/images/mapicons/poi_boundary_administrative.p.20.png"
+  }
+]

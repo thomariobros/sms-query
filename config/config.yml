@@ -1,0 +1,38 @@
+smsGateway:
+  allowedPhoneNumbers:
+    - ''
+  provider:
+   id: nexmo
+   key: ''
+   secret: ''
+   phoneNumber: ''
+
+weather:
+  id: darksky
+  apiKey: ''
+
+cyclocity:
+  id: jcdecaux
+  apiKey: ''
+
+navitia:
+  id: navitia
+  apiKey: ''
+
+preferences:
+  - phoneNumber: ''
+    aliases:
+      - key: bicloo
+        value: 'bicloo gare maritime'
+    defaults:
+      timeZoneId: 'Europe/Paris'
+      locale: 'en_US'
+      country: 'FR'
+      city: 'Nantes'
+      rss: 'https://www.lemonde.fr/rss/une.xml'
+    defaults:
+      timeZoneId: 'Europe/Paris'
+      locale: 'fr_FR'
+      country: 'FR'
+      city: 'Nantes'
+      rss: 'https://www.lemonde.fr/rss/une.xml'
