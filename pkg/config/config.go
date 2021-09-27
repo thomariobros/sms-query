@@ -3,6 +3,7 @@ package config
 import (
 	"io/ioutil"
 	"path/filepath"
+	"os"
 	"sync"
 
 	"gopkg.in/yaml.v2"
@@ -52,6 +53,7 @@ func (config *Config) loadWithRootPath(rootPath string) error {
 }
 
 func (config *Config) loadWithContent(content []byte) error {
+	content = []byte(os.ExpandEnv(string(content))) // expand with env variables first
 	err := yaml.Unmarshal(content, config)
 	if err != nil {
 		return err
