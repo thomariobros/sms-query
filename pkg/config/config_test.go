@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestInit(t *testing.T) {
@@ -15,5 +15,5 @@ func TestInit(t *testing.T) {
 
 	assert := assert.New(t)
 	assert.Equal("jcdecaux", config.Cyclocity.ID)
-	assert.NotEmpty(config.Cyclocity.APIKey)
+	assert.Empty(config.Cyclocity.APIKey)
 }

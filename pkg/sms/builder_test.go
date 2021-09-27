@@ -8,7 +8,7 @@ import (
 	forecast "github.com/mlbright/forecast/v2"
 	"github.com/mmcdole/gofeed"
 
-	"gopkg.in/stretchr/testify.v1/assert"
+	"github.com/stretchr/testify/assert"
 
 	"main/pkg/i18n"
 	"main/pkg/service/search"
