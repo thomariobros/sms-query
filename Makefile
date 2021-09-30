@@ -10,7 +10,10 @@ mod-download:
 	@go mod download
 
 fmt:
-	@go fmt ./pkg/... ./cmd/$(NAME)
+	@gofmt -s -l -w .
+
+fmt-check:
+	@./fmt-check.sh
 
 bindata:
 	@go get -u github.com/jteeuwen/go-bindata/...
