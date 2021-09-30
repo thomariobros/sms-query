@@ -2,8 +2,8 @@ package config
 
 import (
 	"io/ioutil"
-	"path/filepath"
 	"os"
+	"path/filepath"
 	"sync"
 
 	"gopkg.in/yaml.v2"

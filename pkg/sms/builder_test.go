@@ -36,13 +36,13 @@ func TestBuildCyclocityStations(t *testing.T) {
 	assert := assert.New(t)
 
 	stations := []cyclocity.CyclocityStation{
-		cyclocity.CyclocityStation{
+		{
 			Name:                "name1",
 			Address:             "address1",
 			AvailableBikes:      1,
 			AvailableBikeStands: 2,
 		},
-		cyclocity.CyclocityStation{
+		{
 			Name:                "name2",
 			Address:             "address2",
 			AvailableBikes:      3,
@@ -77,11 +77,11 @@ func TestBuildRss(t *testing.T) {
 	assert := assert.New(t)
 
 	items := []gofeed.Item{
-		gofeed.Item{
+		{
 			Title:       "Title1",
 			Description: "Description1",
 		},
-		gofeed.Item{
+		{
 			Title: "Title2",
 		},
 	}
@@ -100,13 +100,13 @@ func TestBuildRainHour(t *testing.T) {
 		HasData:     true,
 		Deadline:    "201707201815",
 		Data: []weather.RainHourData{
-			weather.RainHourData{Level: 0},
-			weather.RainHourData{Level: 1},
-			weather.RainHourData{Level: 2},
-			weather.RainHourData{Level: 3},
-			weather.RainHourData{Level: 4},
-			weather.RainHourData{Level: 5},
-			weather.RainHourData{Level: 2},
+			{Level: 0},
+			{Level: 1},
+			{Level: 2},
+			{Level: 3},
+			{Level: 4},
+			{Level: 5},
+			{Level: 2},
 		},
 	}
 	assert.Equal("18:15 : données indisponibles\n"+
@@ -139,12 +139,12 @@ func TestBuildWeatherDataBlock(t *testing.T) {
 		Hour: true,
 		Data: &forecast.DataBlock{
 			Data: []forecast.DataPoint{
-				forecast.DataPoint{
+				{
 					Time:        now.Unix(),
 					Summary:     "Sunny",
 					Temperature: 32.1,
 				},
-				forecast.DataPoint{
+				{
 					Time:        nowPlus1Hour.Unix(),
 					Summary:     "Clear",
 					Temperature: 28.7,
@@ -177,15 +177,15 @@ func TestBuildNextDeparture(t *testing.T) {
 		Status: transport.StatusOk,
 		Now:    t1,
 		StopTimes: []transport.DateTimeOrMoreThan1Hour{
-			transport.DateTimeOrMoreThan1Hour{
+			{
 				MoreThan1Hour: false,
 				DateTime:      t2,
 			},
-			transport.DateTimeOrMoreThan1Hour{
+			{
 				MoreThan1Hour: false,
 				DateTime:      t3,
 			},
-			transport.DateTimeOrMoreThan1Hour{
+			{
 				MoreThan1Hour: true,
 			},
 		},
