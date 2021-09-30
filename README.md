@@ -1,8 +1,10 @@
-# pre-commit
+# local dev
+
+## pre-commit
 
 see config file [.pre-commit-config.yaml](.pre-commit-config.yaml)
 
-## install
+### install
 
 ```bash
 pip3 install pre-commit
