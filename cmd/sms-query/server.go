@@ -1,14 +1,17 @@
 package main
 
 import (
+	"encoding/json"
 	"flag"
 	"fmt"
 	"net/http"
 	"os"
 	"strings"
 
+	"github.com/golang-jwt/jwt/v4"
 	"github.com/golang/glog"
 
+	"main/pkg/config"
 	"main/pkg/run"
 )
 
@@ -51,7 +54,7 @@ func main() {
 func registerHandlers() {
 	// query from nexmo
 	http.HandleFunc("/nexmo", func(w http.ResponseWriter, r *http.Request) {
-		processQuery(w, r, parseParamsNexmo)
+		processQuery(w, r, parseNexmo)
 	})
 }
 
@@ -63,23 +66,52 @@ func processQuery(w http.ResponseWriter, r *http.Request, parserFn paramsParser)
 		return
 	}
 	// immediate http response
-	w.WriteHeader(http.StatusOK)
+	w.WriteHeader(http.StatusNoContent)
 }
 
 type paramsParser func(request *http.Request) (string, string)
 
-func parseParamsNexmo(request *http.Request) (string, string) {
+func parseNexmo(request *http.Request) (string, string) {
+	// check jwt signature https://developer.nexmo.com/messages/concepts/signed-webhooks
+	toString := strings.Split(request.Header.Get("authorization"), " ")[1]
+	token, err := jwt.Parse(toString, func(token *jwt.Token) (interface{}, error) {
+		// validate that alg is what we expect
+		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
+			return nil, fmt.Errorf("Unexpected jwt signing method: %v", token.Header["alg"])
+		}
+		signatureSecret := config.GetInstance().SMSGateway.Provider.SignatureSecret
+		return []byte(signatureSecret), nil
+	})
+	_, ok := token.Claims.(jwt.MapClaims)
+	if !ok || !token.Valid {
+		glog.Errorf("Error while checking jwt signature: %s", err)
+		return "", ""
+	}
+	// get from and query params
 	var from, query string
-	if request.Method == "GET" {
-		from = strings.TrimSpace(request.URL.Query().Get("msisdn"))
-		query = strings.TrimSpace(request.URL.Query().Get("text"))
-	} else if request.Method == "POST" {
-		request.ParseForm()
-		from = strings.TrimSpace(request.Form.Get("msisdn"))
-		query = strings.TrimSpace(request.Form.Get("text"))
+	if request.Method == "POST" {
+		var message nexmoMessage
+		if err := json.NewDecoder(request.Body).Decode(&message); err != nil {
+			glog.Errorf("Error while decoding JSON: %s", err)
+			return "", ""
+		}
+		from = strings.TrimSpace(message.From.Number)
+		query = strings.TrimSpace(message.Message.Content.Text)
 	}
 	if from != "" && query != "" {
 		return from, query
 	}
 	return "", ""
+}
+
+type nexmoMessage struct {
+	From struct {
+		Type   string `json:"type"`
+		Number string `json:"number"`
+	} `json:"from"`
+	Message struct {
+		Content struct {
+			Text string `json:"text"`
+		} `json:"content"`
+	} `json:"message"`
 }
