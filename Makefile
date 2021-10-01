@@ -1,7 +1,7 @@
 NAME=sms-query
 VERSION=1.2.7
 
-default: test build-cli build-server
+default: build-cli build-server test
 
 clean:
 	@git clean -X -f
