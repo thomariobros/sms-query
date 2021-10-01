@@ -1,3 +1,10 @@
+# Vonage APIs configuration
+
+1. https://dashboard.nexmo.com/your-numbers => buy virtual phone number
+2. https://dashboard.nexmo.com/settings => activate *Messages API*
+3. https://dashboard.nexmo.com/applications => new application, activate *Messages* capability and set *Inbound URL*
+4. link virtual phone number to the new application
+
 # local dev
 
 ## pre-commit
@@ -11,18 +18,14 @@ pip3 install pre-commit
 pre-commit install
 ```
 
-# API
+## Vonage APIs webhooks
 
-## Nexmo
+- https://developer.nexmo.com/messages/code-snippets/configure-webhooks
+- https://developer.nexmo.com/messages/concepts/signed-webhooks
 
-https://dashboard.nexmo.com/sign-in
+# external data APIs
 
-https://developer.nexmo.com/concepts/guides/webhooks
-
-https://www.nexmo.com/pricing/
-
-
-## JCDecaux
+## JCDecaux’s self-service bicycles (bicloo in Nantes, France)
 
 https://developer.jcdecaux.com/
 
