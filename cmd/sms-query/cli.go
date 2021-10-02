@@ -6,8 +6,6 @@ import (
 	"os"
 
 	"main/pkg/run"
-
-	"github.com/golang/glog"
 )
 
 // Version build version
@@ -15,27 +13,14 @@ var Version = "latest"
 
 func main() {
 	// cli params
+	config := flag.String("config", "config/config.yml", "config path")
 	from := flag.String("from", "toto", "from phone number")
 	query := flag.String("query", "help", "query")
 	send := flag.Bool("send", false, "send")
 	flag.Parse()
 
 	// init
-	assets := map[string]string{
-		"config":     "config/config.yml",
-		"i18n-en_US": "config/i18n/en_US.json",
-		"i18n-fr_FR": "config/i18n/fr_FR.json",
-	}
-	content := make(map[string][]byte)
-	for key, path := range assets {
-		asset, err := Asset(path)
-		if err != nil {
-			glog.Fatalf("Error while loading config: %s", err)
-			os.Exit(1)
-		}
-		content[key] = asset
-	}
-	run.Init(content)
+	run.Init(*config)
 
 	var output string
 	var err error

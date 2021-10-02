@@ -16,20 +16,11 @@ func GetInstance() *Config {
 	return instance
 }
 
-func InitWithRootPath(rootPath string) error {
+func InitWithPath(path string) error {
 	var err error
 	once.Do(func() {
 		instance = &Config{}
-		err = instance.loadWithRootPath(rootPath)
-	})
-	return err
-}
-
-func InitWithContent(content []byte) error {
-	var err error
-	once.Do(func() {
-		instance = &Config{}
-		err = instance.loadWithContent(content)
+		err = instance.loadWithPath(path)
 	})
 	return err
 }
@@ -43,12 +34,15 @@ type Config struct {
 	Navitia       API           `yaml:"navitia"`
 }
 
-func (config *Config) loadWithRootPath(rootPath string) error {
-	absPath, err := filepath.Abs(rootPath + "/config.yml")
+func (config *Config) loadWithPath(path string) error {
+	absPath, err := filepath.Abs(path)
 	if err != nil {
 		return err
 	}
 	content, err := ioutil.ReadFile(absPath)
+	if err != nil {
+		return err
+	}
 	return config.loadWithContent(content)
 }
 

@@ -11,15 +11,28 @@ import (
 	"main/pkg/i18n"
 )
 
-func Init(content map[string][]byte) {
+func Init(configPath string) {
 	// load config
-	err := config.InitWithContent(content["config"])
+	err := config.InitWithPath(configPath)
 	if err != nil {
 		glog.Fatalf("error while loading config: %s", err)
 		os.Exit(1)
 	}
 	// load i18n
-	i18n.LoadWithContent(content)
+	i18nAssets := map[string]string{
+		"i18n-en_US": "config/i18n/en_US.json",
+		"i18n-fr_FR": "config/i18n/fr_FR.json",
+	}
+	i18nAssetsContent := make(map[string][]byte)
+	for key, path := range i18nAssets {
+		asset, err := Asset(path)
+		if err != nil {
+			glog.Fatalf("Error while loading config: %s", err)
+			os.Exit(1)
+		}
+		i18nAssetsContent[key] = asset
+	}
+	i18n.LoadWithContent(i18nAssetsContent)
 }
 
 func ExecuteQuery(from, query string) (string, error) {

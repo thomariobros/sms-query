@@ -17,19 +17,19 @@ fmt-check:
 
 bindata:
 	@go get -u github.com/jteeuwen/go-bindata/...
-	@~/go/bin/go-bindata -o ./cmd/$(NAME)/bindata.go config/...
+	@~/go/bin/go-bindata -o ./pkg/run/bindata.go -pkg run config/i18n/...
 
 build-server: bindata
-	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME) ./cmd/$(NAME)/bindata.go ./cmd/$(NAME)/server.go
+	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME) ./cmd/$(NAME)/server.go
 
 build-cli: bindata
-	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME)-cli ./cmd/$(NAME)/bindata.go ./cmd/$(NAME)/cli.go
+	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME)-cli ./cmd/$(NAME)/cli.go
 
 test:
 	@CGO_ENABLED=0 go test -v -cover ./pkg/...
 
 run-server: build-server
-	@./$(NAME) -logtostderr -bind=127.0.0.1:8080
+	@./$(NAME) -logtostderr -config=config/config.yml -bind=127.0.0.1:8080
 
 run-cli: build-cli
-	@./$(NAME)-cli -logtostderr -from="$(from)" -query="$(query)" -send=$(send)
+	@./$(NAME)-cli -logtostderr -config=config/config.yml -from="$(from)" -query="$(query)" -send=$(send)
