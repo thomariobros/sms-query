@@ -7,7 +7,7 @@ import (
 )
 
 func TestInit(t *testing.T) {
-	err := InitWithRootPath("../../config")
+	err := InitWithPath("../../config/config.yml")
 	if err != nil {
 		t.Fatal(err)
 	}

@@ -20,25 +20,12 @@ var Version = "latest"
 
 func main() {
 	// cli params
+	config := flag.String("config", "config/config.yml", "config path")
 	bind := flag.String("bind", "127.0.0.1:8080", "bind address")
 	flag.Parse()
 
 	// init
-	assets := map[string]string{
-		"config":     "config/config.yml",
-		"i18n-en_US": "config/i18n/en_US.json",
-		"i18n-fr_FR": "config/i18n/fr_FR.json",
-	}
-	content := make(map[string][]byte)
-	for key, path := range assets {
-		asset, err := Asset(path)
-		if err != nil {
-			glog.Fatalf("Error while loading config: %s", err)
-			os.Exit(1)
-		}
-		content[key] = asset
-	}
-	run.Init(content)
+	run.Init(*config)
 
 	// handlers
 	registerHandlers()

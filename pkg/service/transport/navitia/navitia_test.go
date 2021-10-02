@@ -17,7 +17,10 @@ import (
 )
 
 func TestStifServiceGetNextDepartureTime(t *testing.T) {
-	config.InitWithRootPath("../../../config")
+	err := config.InitWithPath("../../../../config/config.yml")
+	if err != nil {
+		t.Fatal(err)
+	}
 
 	// mock server response
 	ts := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
