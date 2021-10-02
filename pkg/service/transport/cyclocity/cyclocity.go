@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"strings"
 
-	"main/pkg/config"
-	"main/pkg/http"
-	"main/pkg/util"
+	"sms-query/pkg/config"
+	"sms-query/pkg/http"
+	"sms-query/pkg/util"
 )
 
 const (

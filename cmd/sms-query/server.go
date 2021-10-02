@@ -11,8 +11,8 @@ import (
 	"github.com/golang-jwt/jwt/v4"
 	"github.com/golang/glog"
 
-	"main/pkg/config"
-	"main/pkg/run"
+	"sms-query/pkg/config"
+	"sms-query/pkg/run"
 )
 
 // Version build version

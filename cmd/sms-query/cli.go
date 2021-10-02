@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"main/pkg/run"
+	"sms-query/pkg/run"
 )
 
 // Version build version

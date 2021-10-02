@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	"main/pkg/http"
-	"main/pkg/service/transport"
-	"main/pkg/util"
+	"sms-query/pkg/http"
+	"sms-query/pkg/service/transport"
+	"sms-query/pkg/util"
 )
 
 const (

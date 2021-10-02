@@ -1,10 +1,10 @@
 package command
 
 import (
-	"main/pkg/config"
-	"main/pkg/i18n"
-	"main/pkg/sms"
-	"main/pkg/util"
+	"sms-query/pkg/config"
+	"sms-query/pkg/i18n"
+	"sms-query/pkg/sms"
+	"sms-query/pkg/util"
 )
 
 type Dispatcher struct {

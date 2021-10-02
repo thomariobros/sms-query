@@ -6,14 +6,14 @@ import (
 
 	"github.com/golang/glog"
 
-	"main/pkg/config"
-	"main/pkg/service"
-	"main/pkg/service/news"
-	"main/pkg/service/transport"
-	"main/pkg/service/transport/cyclocity"
-	"main/pkg/service/transport/navitia"
-	"main/pkg/service/transport/tan"
-	"main/pkg/service/weather"
+	"sms-query/pkg/config"
+	"sms-query/pkg/service"
+	"sms-query/pkg/service/news"
+	"sms-query/pkg/service/transport"
+	"sms-query/pkg/service/transport/cyclocity"
+	"sms-query/pkg/service/transport/navitia"
+	"sms-query/pkg/service/transport/tan"
+	"sms-query/pkg/service/weather"
 )
 
 var commands []*Command = []*Command{

@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	"main/pkg/http"
-	"main/pkg/service/search"
+	"sms-query/pkg/http"
+	"sms-query/pkg/service/search"
 )
 
 const (

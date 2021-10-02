@@ -4,7 +4,7 @@ import (
 	"github.com/goodsign/monday"
 	"github.com/nicksnyder/go-i18n/i18n"
 
-	"main/pkg/config"
+	"sms-query/pkg/config"
 )
 
 func LoadWithRootPath(configRootPath string) {

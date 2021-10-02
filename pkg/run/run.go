@@ -6,9 +6,9 @@ import (
 
 	"github.com/golang/glog"
 
-	"main/pkg/command"
-	"main/pkg/config"
-	"main/pkg/i18n"
+	"sms-query/pkg/command"
+	"sms-query/pkg/config"
+	"sms-query/pkg/i18n"
 )
 
 func Init(configPath string) {

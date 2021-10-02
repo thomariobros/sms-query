@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"main/pkg/util"
+	"sms-query/pkg/util"
 )
 
 type Preferences struct {

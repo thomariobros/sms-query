@@ -10,8 +10,8 @@ import (
 	"github.com/avast/retry-go"
 	"github.com/golang/glog"
 
-	"main/pkg/config"
-	"main/pkg/http"
+	"sms-query/pkg/config"
+	"sms-query/pkg/http"
 )
 
 type Sender struct {

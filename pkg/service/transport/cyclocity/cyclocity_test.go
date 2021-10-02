@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"main/pkg/config"
+	"sms-query/pkg/config"
 )
 
 func TestCyclocity(t *testing.T) {

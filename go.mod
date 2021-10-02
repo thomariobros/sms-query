@@ -1,4 +1,4 @@
-module main
+module sms-query
 
 go 1.17
 

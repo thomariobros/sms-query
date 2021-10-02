@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"main/pkg/config"
-	"main/pkg/http"
-	"main/pkg/service/transport"
-	"main/pkg/util"
+	"sms-query/pkg/config"
+	"sms-query/pkg/http"
+	"sms-query/pkg/service/transport"
+	"sms-query/pkg/util"
 )
 
 // http://doc.navitia.io/
