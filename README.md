@@ -7,11 +7,31 @@
 
 # local dev
 
+## Build
+
+```bash
+make
+```
+
+## cli to test query and print response or send response as SMS
+
+```bash
+make build-cli
+make run-cli from=... query=help send=false # print
+make run-cli from=... query=help send=true # send SMS
+```
+
+## Unit tests
+
+```bash
+make test
+```
+
 ## pre-commit
 
 see config file [.pre-commit-config.yaml](.pre-commit-config.yaml)
 
-### install
+### Install
 
 ```bash
 pip3 install pre-commit
@@ -23,7 +43,7 @@ pre-commit install
 - https://developer.nexmo.com/messages/code-snippets/configure-webhooks
 - https://developer.nexmo.com/messages/concepts/signed-webhooks
 
-# external data APIs
+# External data APIs
 
 ## JCDecaux’s self-service bicycles (bicloo in Nantes, France)
 
