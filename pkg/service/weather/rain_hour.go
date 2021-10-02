@@ -5,7 +5,7 @@ import (
 
 	"net/url"
 
-	"main/pkg/http"
+	"sms-query/pkg/http"
 )
 
 const (

@@ -11,14 +11,14 @@ import (
 	"github.com/goodsign/monday"
 	"github.com/mmcdole/gofeed"
 
-	"main/pkg/config"
-	"main/pkg/errors"
-	"main/pkg/i18n"
-	"main/pkg/service/search"
-	"main/pkg/service/transport"
-	"main/pkg/service/transport/cyclocity"
-	"main/pkg/service/weather"
-	"main/pkg/util"
+	"sms-query/pkg/config"
+	"sms-query/pkg/errors"
+	"sms-query/pkg/i18n"
+	"sms-query/pkg/service/search"
+	"sms-query/pkg/service/transport"
+	"sms-query/pkg/service/transport/cyclocity"
+	"sms-query/pkg/service/weather"
+	"sms-query/pkg/util"
 )
 
 func Build(from string, query string, data interface{}, err error) string {

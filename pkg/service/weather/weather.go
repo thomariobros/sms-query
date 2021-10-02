@@ -2,8 +2,8 @@ package weather
 
 import (
 	forecast "github.com/mlbright/forecast/v2"
-	"main/pkg/config"
-	"main/pkg/service"
+	"sms-query/pkg/config"
+	"sms-query/pkg/service"
 )
 
 type WeatherService struct {

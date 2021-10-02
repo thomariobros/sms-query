@@ -3,7 +3,7 @@ package deepl
 import (
 	"encoding/json"
 
-	"main/pkg/http"
+	"sms-query/pkg/http"
 )
 
 const (

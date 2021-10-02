@@ -1,9 +1,9 @@
 package service
 
 import (
-	"main/pkg/service/maps/nominatim"
-	"main/pkg/service/search/qwant"
-	"main/pkg/service/translate/deepl"
+	"sms-query/pkg/service/maps/nominatim"
+	"sms-query/pkg/service/search/qwant"
+	"sms-query/pkg/service/translate/deepl"
 )
 
 func NewMapsService() *nominatim.NominatimService {

@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"main/pkg/http"
-	"main/pkg/service/maps"
+	"sms-query/pkg/http"
+	"sms-query/pkg/service/maps"
 )
 
 const (

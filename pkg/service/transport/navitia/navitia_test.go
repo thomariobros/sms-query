@@ -12,8 +12,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"main/pkg/config"
-	"main/pkg/service/transport"
+	"sms-query/pkg/config"
+	"sms-query/pkg/service/transport"
 )
 
 func TestStifServiceGetNextDepartureTime(t *testing.T) {

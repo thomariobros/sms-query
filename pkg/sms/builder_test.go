@@ -10,11 +10,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"main/pkg/i18n"
-	"main/pkg/service/search"
-	"main/pkg/service/transport"
-	"main/pkg/service/transport/cyclocity"
-	"main/pkg/service/weather"
+	"sms-query/pkg/i18n"
+	"sms-query/pkg/service/search"
+	"sms-query/pkg/service/transport"
+	"sms-query/pkg/service/transport/cyclocity"
+	"sms-query/pkg/service/weather"
 )
 
 func setup() {

@@ -3,7 +3,7 @@ package news
 import (
 	"github.com/mmcdole/gofeed"
 
-	"main/pkg/util"
+	"sms-query/pkg/util"
 )
 
 func Rss(rss string, max int) ([]gofeed.Item, error) {
