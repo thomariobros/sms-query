@@ -13,7 +13,7 @@ fmt:
 	@gofmt -s -l -w .
 
 fmt-check:
-	@./fmt-check.sh
+	@./scripts/fmt-check.sh
 
 bindata:
 	@go get -u github.com/jteeuwen/go-bindata/...
