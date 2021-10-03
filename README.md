@@ -45,6 +45,29 @@ pre-commit install
 - https://developer.nexmo.com/messages/code-snippets/configure-webhooks
 - https://developer.nexmo.com/messages/concepts/signed-webhooks
 
+# Deploy
+
+## Clever Cloud
+
+### Create
+```bash
+export PHONE_NUMBER=...
+export NEXMO_KEY=...
+export NEXMO_SECRET=...
+export NEXMO_SIGNATURE_SECRET=...
+export NEXMO_PHONE_NUMBER=...
+export CLEVER_TOKEN=...
+export CLEVER_SECRET=...
+./scripts/clever-cloud-create.sh
+```
+
+### Update
+```bash
+export CLEVER_TOKEN=...
+export CLEVER_SECRET=...
+clever deploy
+```
+
 # External data APIs
 
 ## JCDecaux’s self-service bicycles (bicloo in Nantes, France)
