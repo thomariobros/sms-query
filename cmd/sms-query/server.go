@@ -23,6 +23,8 @@ func main() {
 	config := flag.String("config", "config/config.yml", "config path")
 	bind := flag.String("bind", "0.0.0.0:8080", "bind address")
 	flag.Parse()
+	// force logtostderr
+	flag.Lookup("logtostderr").Value.Set("true")
 
 	// init
 	run.Init(*config)

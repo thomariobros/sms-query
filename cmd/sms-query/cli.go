@@ -18,6 +18,8 @@ func main() {
 	query := flag.String("query", "help", "query")
 	send := flag.Bool("send", false, "send")
 	flag.Parse()
+	// force logtostderr
+	flag.Lookup("logtostderr").Value.Set("true")
 
 	// init
 	run.Init(*config)
