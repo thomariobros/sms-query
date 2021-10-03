@@ -215,10 +215,10 @@ type bintree struct {
 }
 
 var _bintree = &bintree{nil, map[string]*bintree{
-	"config": &bintree{nil, map[string]*bintree{
-		"i18n": &bintree{nil, map[string]*bintree{
-			"en_US.json": &bintree{configI18nEn_usJson, map[string]*bintree{}},
-			"fr_FR.json": &bintree{configI18nFr_frJson, map[string]*bintree{}},
+	"config": {nil, map[string]*bintree{
+		"i18n": {nil, map[string]*bintree{
+			"en_US.json": {configI18nEn_usJson, map[string]*bintree{}},
+			"fr_FR.json": {configI18nFr_frJson, map[string]*bintree{}},
 		}},
 	}},
 }}
