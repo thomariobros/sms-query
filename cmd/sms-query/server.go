@@ -60,8 +60,16 @@ type paramsParser func(request *http.Request) (string, string)
 
 func parseNexmo(request *http.Request) (string, string) {
 	// check jwt signature https://developer.nexmo.com/messages/concepts/signed-webhooks
-	toString := strings.Split(request.Header.Get("authorization"), " ")[1]
-	token, err := jwt.Parse(toString, func(token *jwt.Token) (interface{}, error) {
+	authorizationHeader := request.Header.Get("authorization")
+	if authorizationHeader == "" {
+		return "", ""
+	}
+	splitAuthorizationHeader := strings.Split(authorizationHeader, " ")
+	if len(splitAuthorizationHeader) != 2 {
+		return "", ""
+	}
+	tokenString := splitAuthorizationHeader[1]
+	token, err := jwt.Parse(tokenString, func(token *jwt.Token) (interface{}, error) {
 		// validate that alg is what we expect
 		if _, ok := token.Method.(*jwt.SigningMethodHMAC); !ok {
 			return nil, fmt.Errorf("Unexpected jwt signing method: %v", token.Header["alg"])
