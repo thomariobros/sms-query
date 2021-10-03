@@ -21,7 +21,7 @@ var Version = "latest"
 func main() {
 	// cli params
 	config := flag.String("config", "config/config.yml", "config path")
-	bind := flag.String("bind", "127.0.0.1:8080", "bind address")
+	bind := flag.String("bind", "0.0.0.0:8080", "bind address")
 	flag.Parse()
 
 	// init

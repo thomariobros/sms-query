@@ -19,10 +19,10 @@ bindata:
 	@go install github.com/go-bindata/go-bindata/...
 	@~/go/bin/go-bindata -o ./pkg/run/bindata.go -pkg run config/i18n/...
 
-build-server: bindata
+build-server:
 	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME) ./cmd/$(NAME)/server.go
 
-build-cli: bindata
+build-cli:
 	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME)-cli ./cmd/$(NAME)/cli.go
 
 test:
