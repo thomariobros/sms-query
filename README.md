@@ -1,3 +1,5 @@
+[![Go](https://github.com/thomariobros/sms-query/actions/workflows/go.yml/badge.svg)](https://github.com/thomariobros/sms-query/actions/workflows/go.yml)
+
 # Vonage APIs configuration
 
 1. https://dashboard.nexmo.com/your-numbers => buy virtual phone number
