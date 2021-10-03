@@ -40,12 +40,12 @@ func main() {
 
 func registerHandlers() {
 	// query from nexmo
-	http.HandleFunc("/nexmo", func(w http.ResponseWriter, r *http.Request) {
-		processQuery(w, r, parseNexmo)
+	http.HandleFunc("/nexmo/inbound", func(w http.ResponseWriter, r *http.Request) {
+		processInboundQuery(w, r, parseNexmoInbound)
 	})
 }
 
-func processQuery(w http.ResponseWriter, r *http.Request, parserFn paramsParser) {
+func processInboundQuery(w http.ResponseWriter, r *http.Request, parserFn paramsParser) {
 	from, query := parserFn(r)
 	err := run.ExecuteQuerySend(from, query, true)
 	if err != nil {
@@ -58,7 +58,7 @@ func processQuery(w http.ResponseWriter, r *http.Request, parserFn paramsParser)
 
 type paramsParser func(request *http.Request) (string, string)
 
-func parseNexmo(request *http.Request) (string, string) {
+func parseNexmoInbound(request *http.Request) (string, string) {
 	// check jwt signature https://developer.nexmo.com/messages/concepts/signed-webhooks
 	authorizationHeader := request.Header.Get("authorization")
 	if authorizationHeader == "" {

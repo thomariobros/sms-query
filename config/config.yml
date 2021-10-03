@@ -1,27 +1,27 @@
 smsGateway:
   allowedPhoneNumbers:
-    - ''
+    - '${SMS_GATEWAY_ALLOWED_PHONE_NUMBERS_1}'
   provider:
    id: nexmo
-   key: ''
-   secret: ''
-   signatureSecret: ''
-   phoneNumber: ''
+   key: '${NEXMO_KEY}'
+   secret: '${NEXMO_SECRET}'
+   signatureSecret: '${NEXMO_SIGNATURE_SECRET}'
+   phoneNumber: '${NEXMO_PHONE_NUMBER}'
 
 weather:
   id: darksky
-  apiKey: ''
+  apiKey: '${WEATHER_DARKSKY_API_KEY}'
 
 cyclocity:
   id: jcdecaux
-  apiKey: ''
+  apiKey: '${CYCLOCITY_JCDECAUX_API_KEY}'
 
 navitia:
   id: navitia
-  apiKey: ''
+  apiKey: '${navitia_API_KEY}'
 
 preferences:
-  - phoneNumber: ''
+  - phoneNumber: '${SMS_GATEWAY_ALLOWED_PHONE_NUMBERS_1}'
     aliases:
       - key: bicloo
         value: 'bicloo gare maritime'
