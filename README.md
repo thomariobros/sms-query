@@ -47,7 +47,7 @@ pre-commit install
 
 # Deploy
 
-## Clever Cloud
+## Clever Cloud https://www.clever-cloud.com/
 
 ### Create
 ```bash
