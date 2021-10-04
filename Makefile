@@ -18,7 +18,7 @@ fmt-check:
 bindata:
 	@go install github.com/go-bindata/go-bindata/...
 	@~/go/bin/go-bindata -o ./pkg/run/bindata.go -pkg run config/i18n/...
-	@$(MAKE) fmt
+	@$(MAKE) -s fmt
 
 build-server:
 	@CGO_ENABLED=0 go build -ldflags "-X main.Version=$(VERSION)" -o $(NAME) ./cmd/$(NAME)/server.go
