@@ -1,5 +1,5 @@
 NAME=sms-query
-VERSION=1.2.7
+VERSION=$(shell git rev-parse --short HEAD)
 
 default: build-server test
 
