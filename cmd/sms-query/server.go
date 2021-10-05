@@ -41,13 +41,15 @@ func main() {
 }
 
 func registerHandlers() {
-	// query from nexmo
 	http.HandleFunc("/nexmo/inbound", func(w http.ResponseWriter, r *http.Request) {
 		processInboundQuery(w, r, parseNexmoInbound)
 	})
+	http.HandleFunc("/nexmo/status", func(w http.ResponseWriter, r *http.Request) {
+		processStatus(w, r, parseNexmoStatus)
+	})
 }
 
-func processInboundQuery(w http.ResponseWriter, r *http.Request, parserFn paramsParser) {
+func processInboundQuery(w http.ResponseWriter, r *http.Request, parserFn inboundQueryParser) {
 	from, query := parserFn(r)
 	err := run.ExecuteQuerySend(from, query, true)
 	if err != nil {
@@ -58,17 +60,78 @@ func processInboundQuery(w http.ResponseWriter, r *http.Request, parserFn params
 	w.WriteHeader(http.StatusNoContent)
 }
 
-type paramsParser func(request *http.Request) (string, string)
+type inboundQueryParser func(request *http.Request) (string, string)
 
 func parseNexmoInbound(request *http.Request) (string, string) {
+	ok := checkSignature(request)
+	if !ok {
+		return "", ""
+	}
+	// get from and query params
+	var from, query string
+	if request.Method == "POST" {
+		var message nexmoInboundMessage
+		if err := json.NewDecoder(request.Body).Decode(&message); err != nil {
+			glog.Errorf("Error while decoding JSON: %s", err)
+			return "", ""
+		}
+		from = message.From.Number
+		query = message.Message.Content.Text
+	}
+	return from, query
+}
+
+type nexmoInboundMessage struct {
+	From struct {
+		Number string `json:"number"`
+	} `json:"from"`
+	Message struct {
+		Content struct {
+			Text string `json:"text"`
+		} `json:"content"`
+	} `json:"message"`
+}
+
+func processStatus(w http.ResponseWriter, r *http.Request, parserFn statusParser) {
+	to, status := parserFn(r)
+	glog.Infof("Status to=%s, status=", to, status)
+	w.WriteHeader(http.StatusNoContent)
+}
+
+type statusParser func(request *http.Request) (string, string)
+
+func parseNexmoStatus(request *http.Request) (string, string) {
+	ok := checkSignature(request)
+	if !ok {
+		return "", ""
+	}
+	var to, status string
+	if request.Method == "POST" {
+		var message nexmoStatusMessage
+		if err := json.NewDecoder(request.Body).Decode(&message); err != nil {
+			glog.Errorf("Error while decoding JSON: %s", err)
+			return "", ""
+		}
+	}
+	return to, status
+}
+
+type nexmoStatusMessage struct {
+	To struct {
+		Number string `json:"number"`
+	} `json:"to"`
+	Status string `json:"status"`
+}
+
+func checkSignature(request *http.Request) bool {
 	// check jwt signature https://developer.nexmo.com/messages/concepts/signed-webhooks
 	authorizationHeader := request.Header.Get("authorization")
 	if authorizationHeader == "" {
-		return "", ""
+		return false
 	}
 	splitAuthorizationHeader := strings.Split(authorizationHeader, " ")
 	if len(splitAuthorizationHeader) != 2 {
-		return "", ""
+		return false
 	}
 	tokenString := splitAuthorizationHeader[1]
 	token, err := jwt.Parse(tokenString, func(token *jwt.Token) (interface{}, error) {
@@ -80,35 +143,9 @@ func parseNexmoInbound(request *http.Request) (string, string) {
 		return []byte(signatureSecret), nil
 	})
 	_, ok := token.Claims.(jwt.MapClaims)
-	if !ok || !token.Valid {
+	if !ok {
 		glog.Errorf("Error while checking jwt signature: %s", err)
-		return "", ""
+		return false
 	}
-	// get from and query params
-	var from, query string
-	if request.Method == "POST" {
-		var message nexmoMessage
-		if err := json.NewDecoder(request.Body).Decode(&message); err != nil {
-			glog.Errorf("Error while decoding JSON: %s", err)
-			return "", ""
-		}
-		from = strings.TrimSpace(message.From.Number)
-		query = strings.TrimSpace(message.Message.Content.Text)
-	}
-	if from != "" && query != "" {
-		return from, query
-	}
-	return "", ""
-}
-
-type nexmoMessage struct {
-	From struct {
-		Type   string `json:"type"`
-		Number string `json:"number"`
-	} `json:"from"`
-	Message struct {
-		Content struct {
-			Text string `json:"text"`
-		} `json:"content"`
-	} `json:"message"`
+	return token.Valid
 }
