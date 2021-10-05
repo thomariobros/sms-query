@@ -15,8 +15,9 @@ import (
 	"sms-query/pkg/run"
 )
 
-// Version build version
+// Version or commit id as version
 var Version = "latest"
+var CommitId = os.Getenv("COMMIT_ID")
 
 func main() {
 	// cli params
@@ -32,7 +33,11 @@ func main() {
 	// handlers
 	registerHandlers()
 
-	glog.Info(fmt.Sprintf("sms-query %s - http server listens and serves on %v...", Version, *bind))
+	version := Version
+	if version == "latest" && CommitId != "" {
+		version = CommitId
+	}
+	glog.Info(fmt.Sprintf("sms-query %s - http server listens and serves on %v...", version, *bind))
 	err := http.ListenAndServe(*bind, nil)
 	if err != nil {
 		glog.Fatalf("ListenAndServe: %s", err)
