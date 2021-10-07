@@ -30,8 +30,12 @@ make
 
 ```bash
 make build-cli
-make run-cli from=... query=help send=false # print
-make run-cli from=... query=help send=true # send SMS
+make run-cli from=... query="..." send=false # print
+make run-cli from=... query="..." send=true # send SMS
+# examples (based on config/config.yml)
+SMS_GATEWAY_ALLOWED_PHONE_NUMBERS_1=33601020304 make run-cli from=33601020304 query="help" send=false
+SMS_GATEWAY_ALLOWED_PHONE_NUMBERS_1=33601020304 make run-cli from=33601020304 query="search lemonde" send=false
+SMS_GATEWAY_ALLOWED_PHONE_NUMBERS_1=33601020304 make run-cli from=33601020304 query="news" send=false
 ```
 
 ## Unit tests
