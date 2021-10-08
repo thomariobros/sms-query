@@ -86,7 +86,7 @@ https://darksky.net/forecast/47.2186,-1.5541/us12/en
 
 # Deploy
 
-## Clever Cloud https://www.clever-cloud.com/
+## [Clever Cloud](https://www.clever-cloud.com/)
 
 ### Create
 ```bash
