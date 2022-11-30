@@ -6,7 +6,7 @@ require (
 	github.com/PuerkitoBio/goquery v1.5.1-0.20190109230704-3dcf72e6c17f // indirect
 	github.com/andybalholm/cascadia v1.0.1-0.20181012154424-680b6a57bda4 // indirect
 	github.com/avast/retry-go v0.0.0-20180502193734-611bd93c6d74
-	github.com/golang-jwt/jwt/v4 v4.4.2
+	github.com/golang-jwt/jwt/v4 v4.4.3
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/goodsign/monday v0.0.0-20190214151228-5432518a29cd
 	github.com/mlbright/forecast v0.0.0-20190128001447-949aa473a149
