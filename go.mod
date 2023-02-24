@@ -8,7 +8,7 @@ require (
 	github.com/avast/retry-go v0.0.0-20180502193734-611bd93c6d74
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
-	github.com/goodsign/monday v0.0.0-20190214151228-5432518a29cd
+	github.com/goodsign/monday v1.0.0
 	github.com/mlbright/forecast v0.0.0-20190128001447-949aa473a149
 	github.com/mmcdole/gofeed v1.2.0
 	github.com/nicksnyder/go-i18n v1.10.1

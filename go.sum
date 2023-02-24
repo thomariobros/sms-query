@@ -14,8 +14,8 @@ github.com/golang-jwt/jwt/v4 v4.5.0 h1:7cYmW1XlMY7h7ii7UhUyChSgS5wUJEnm9uZVTGqOW
 github.com/golang-jwt/jwt/v4 v4.5.0/go.mod h1:m21LjoU+eqJr34lmDMbreY2eSTRJ1cv77w39/MY0Ch0=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58=
 github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b/go.mod h1:SBH7ygxi8pfUlaOkMMuAQtPIUF8ecWP5IEl/CR7VP2Q=
-github.com/goodsign/monday v0.0.0-20190214151228-5432518a29cd h1:XS7gyDbY1Ygwm4Hx2T5lMfgZV43N5wt5fH21QuRvVUc=
-github.com/goodsign/monday v0.0.0-20190214151228-5432518a29cd/go.mod h1:u85tpSNZDCgHeHt42TxSKGXsjpz+bhxvRbSkLpewiaA=
+github.com/goodsign/monday v1.0.0 h1:Yyk/s/WgudMbAJN6UWSU5xAs8jtNewfqtVblAlw0yoc=
+github.com/goodsign/monday v1.0.0/go.mod h1:r4T4breXpoFwspQNM+u2sLxJb2zyTaxVGqUfTBjWOu8=
 github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/M65Eg=
 github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=
 github.com/json-iterator/go v1.1.12/go.mod h1:e30LSqwooZae/UwlEbR2852Gd8hjQvJoHmT4TnhNGBo=
