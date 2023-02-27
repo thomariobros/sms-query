@@ -13,7 +13,7 @@ require (
 	github.com/mmcdole/gofeed v1.2.0
 	github.com/nicksnyder/go-i18n v1.10.1
 	github.com/pelletier/go-toml v1.2.1-0.20190322002205-f9070d3b400d // indirect
-	github.com/stretchr/testify v1.8.1
+	github.com/stretchr/testify v1.8.2
 	golang.org/x/net v0.4.0 // indirect
 	golang.org/x/text v0.7.0
 	gopkg.in/yaml.v2 v2.4.0
