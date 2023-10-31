@@ -11,8 +11,6 @@ require (
 	github.com/goodsign/monday v1.0.1
 	github.com/mlbright/forecast v0.0.0-20190128001447-949aa473a149
 	github.com/mmcdole/gofeed v1.2.1
-	github.com/nicksnyder/go-i18n v1.10.1
-	github.com/pelletier/go-toml v1.2.1-0.20190322002205-f9070d3b400d // indirect
 	github.com/stretchr/testify v1.8.4
 	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/text v0.13.0
