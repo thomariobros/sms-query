@@ -2,7 +2,7 @@
 
 # About
 
-Get basic information from web api through SMS messages. The application is a web server pluggable to Vonage APIs (formerly Nexmo) inbound message webhook.
+Using SMS messages, send queries and get responses from web apis. The application is a web server pluggable to Vonage APIs (formerly Nexmo) inbound message webhook.
 
 For example sending an SMS text `bicloo gare maritime` to a bought Vonage phone number triggers the application to call the JCDecaux’s 
 self-service bicycles (bicloo in Nantes, France) API to get available bikes and bike stands and send it back as a SMS.
