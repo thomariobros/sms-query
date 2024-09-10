@@ -12,9 +12,6 @@ mod-download:
 fmt:
 	@gofmt -s -l -w .
 
-fmt-check:
-	@./scripts/fmt-check.sh
-
 bindata:
 	@go install github.com/go-bindata/go-bindata/...
 	@~/go/bin/go-bindata -o ./pkg/run/bindata.go -pkg run config/i18n/...
