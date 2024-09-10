@@ -51,7 +51,6 @@ see config file [.pre-commit-config.yaml](.pre-commit-config.yaml)
 ### Install
 
 ```bash
-pip3 install pre-commit
 pre-commit install
 ```
 
