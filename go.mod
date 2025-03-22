@@ -1,12 +1,13 @@
 module sms-query
 
 go 1.17
+toolchain go1.24.1
 
 require (
 	github.com/PuerkitoBio/goquery v1.8.0 // indirect
 	github.com/andybalholm/cascadia v1.3.1 // indirect
 	github.com/avast/retry-go v0.0.0-20180502193734-611bd93c6d74
-	github.com/golang-jwt/jwt/v4 v4.5.1
+	github.com/golang-jwt/jwt/v4 v4.5.2
 	github.com/golang/glog v1.0.0
 	github.com/goodsign/monday v1.0.2
 	github.com/mlbright/forecast v0.0.0-20190128001447-949aa473a149
